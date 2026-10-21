@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Информация о вашем IP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <h1>Информация о вашем IP</h1>
+        
+        <p>IP: <span id="ip">загрузка...</span></p>
+        <p>Город: <span id="city">загрузка...</span></p>
+        <p>Страна: <span id="country">загрузка...</span></p>
+        <p>Провайдер: <span id="isp">загрузка...</span></p>
+
+        <h2>Ваше местоположение на карте</h2>
+
+        <div class="map-box">
+            <iframe id="map" src=""></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
